@@ -13,13 +13,50 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ParksClickListener clickListener = new ParksClickListener();
+        TextView parks = (TextView) findViewById(R.id.parks);
 
-        TextView parks = (TextView)findViewById(R.id.parks);
+        parks.setOnClickListener(new View.OnClickListener() {
 
-        parks.setOnClickListener(clickListener);
+            @Override
+            public void onClick(View view) {
+                Intent parksIntent = new Intent(MainActivity.this, ParkActivity.class);
+                startActivity(parksIntent);
+            }
+        });
+
+
+        TextView restaurants = (TextView) findViewById(R.id.restaurants);
+
+        restaurants.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent restaurantsIntent = new Intent(MainActivity.this, RestaurantActivity.class);
+                startActivity(restaurantsIntent);
+            }
+        });
+
+        TextView shoppingmalls = (TextView) findViewById(R.id.shoppingmalls);
+
+        shoppingmalls.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent shoppingmallsIntent = new Intent(MainActivity.this, ShoppingmallActivity.class);
+                startActivity(shoppingmallsIntent);
+            }
+        });
+
+        TextView universities = (TextView) findViewById(R.id.universities);
+
+        universities.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent universitiesIntent = new Intent(MainActivity.this, UniversityActivity.class);
+                startActivity(universitiesIntent);
+            }
+        });
     }
-
-
 
 }
