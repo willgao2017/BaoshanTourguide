@@ -7,6 +7,9 @@ import android.widget.ListView;
 import com.example.android.baoshantourguide.R;
 
 import java.util.ArrayList;
+
+import static android.R.attr.name;
+
 public class UniversityActivity extends AppCompatActivity {
 
     @Override
@@ -16,8 +19,9 @@ public class UniversityActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Unit> words = new ArrayList<Unit>();
-        words.add(new Unit("Guchun Park","Hutai Road"));
-        words.add(new Unit("Senlin Park","Wusong Raod"));
+        words.add(new Unit(getResources().getString(R.string.University01_name), getResources().getString(R.string.University01_address)));
+        words.add(new Unit(getResources().getString(R.string.University02_name), getResources().getString(R.string.University02_address)));
+        words.add(new Unit(getResources().getString(R.string.University03_name), getResources().getString(R.string.University03_address)));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

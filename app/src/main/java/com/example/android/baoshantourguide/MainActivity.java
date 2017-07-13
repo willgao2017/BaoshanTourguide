@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         TextView restaurants = (TextView) findViewById(R.id.restaurants);
 
         restaurants.setOnClickListener(new View.OnClickListener() {

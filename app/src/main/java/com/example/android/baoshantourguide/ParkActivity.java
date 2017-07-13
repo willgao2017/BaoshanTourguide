@@ -7,6 +7,9 @@ import android.widget.ListView;
 import com.example.android.baoshantourguide.R;
 
 import java.util.ArrayList;
+
+import static android.R.attr.x;
+
 public class ParkActivity extends AppCompatActivity {
 
     @Override
@@ -16,8 +19,10 @@ public class ParkActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Unit> words = new ArrayList<Unit>();
-        words.add(new Unit("Guchun Park","Hutai Road", R.drawable.guchun_park));
-        words.add(new Unit("Senlin Park","Wusong Raod", R.drawable.senlin_park));
+        words.add(new Unit(getResources().getString(R.string.park01_name), getResources().getString(R.string.park01_address), R.drawable.guchun_park));
+        words.add(new Unit(getResources().getString(R.string.park02_name), getResources().getString(R.string.park02_address), R.drawable.linjiang_park));
+        words.add(new Unit(getResources().getString(R.string.park03_name), getResources().getString(R.string.park03_address), R.drawable.luoxi_park));
+        words.add(new Unit(getResources().getString(R.string.park04_name), getResources().getString(R.string.park04_address), R.drawable.senlin_park));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the

@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Baoshan Tourguide</string>
+    <string name="park01_name">Guchun Park</string>
+    <string name="park01_address">4788 Hutai Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="park02_name">Lijiang Park</string>
+    <string name="park02_address">1 Youyi Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="park03_name">Luoxi Park</string>
+    <string name="park03_address">4788 Hutai Road, Baoshan District, \nShanghai,\nChina</string>
+    <string name="park04_name">Wetland Forest Park</string>
+    <string name="park04_address">206 Tanghou Street, Baoshan District, \nShanghai, \nChina</string>
+
+    <string name="Restaurant01_name">Porcelain Culture Restaurant</string>
+    <string name="Restaurant01_address">6th floor, 1569 Mudanjiang Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="Restaurant02_name">Xibei Restaurant</string>
+    <string name="Restaurant02_address">Unit 502, 1569 Baoyang Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="Restaurant03_name">Hu Xiao P Restaurant</string>
+    <string name="Restaurant03_address">235, Youyi Road, Baoshan District, \nShanghai, \nChina</string>
+
+    <string name="Mall01_name">Wanda Plaza</string>
+    <string name="Mall01_address">988 Yierba memory Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="Mall02_name">TigerCity Carnival Plaza</string>
+    <string name="Mall02_address">518 Dahua Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="Mall03_name">TOUCH Plaza</string>
+    <string name="Mall03_address">111 Luxiang Road, Baoshan District, \nShanghai, \nChina</string>
+
+    <string name="University01_name">Shanghai University</string>
+    <string name="University01_address">99 Shangda Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="University02_name">Shanghai Open University</string>
+    <string name="University02_address">737 Yongle Road, Baoshan District, \nShanghai, \nChina</string>
+    <string name="University03_name">Xingzhi College</string>
+    <string name="University03_address">737 Yongle Road, Baoshan District, \nShanghai, \nChina</string>
+
 </resources>

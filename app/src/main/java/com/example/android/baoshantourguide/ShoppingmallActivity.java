@@ -16,8 +16,9 @@ public class ShoppingmallActivity extends AppCompatActivity {
 
         // Create a list of words
         ArrayList<Unit> words = new ArrayList<Unit>();
-        words.add(new Unit("Guchun Park","Hutai Road"));
-        words.add(new Unit("Senlin Park","Wusong Raod"));
+        words.add(new Unit(getResources().getString(R.string.Mall01_name), getResources().getString(R.string.Mall01_address)));
+        words.add(new Unit(getResources().getString(R.string.Mall02_name), getResources().getString(R.string.Mall02_address)));
+        words.add(new Unit(getResources().getString(R.string.Mall03_name), getResources().getString(R.string.Mall03_address)));
 
         // Create an {@link ArrayAdapter}, whose data source is a list of Strings. The
         // adapter knows how to create layouts for each item in the list, using the
